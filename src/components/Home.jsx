@@ -85,7 +85,7 @@ function Home() {
   <div className="portfolio-container">
     <div className="portfolio-container">
       <div className="portfolio-box">
-        <img src={apd} alt />
+        <img className='portfolio-box-img' src={apd} alt />
         <div className="portfolio-layer" />
         <h4>Web Design</h4>
         <p>
