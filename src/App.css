@@ -645,17 +645,40 @@ button:active {
   }
 }
 @media (max-width: 768px) {
-  #darkMode-icon{
-    display: none;
-  }
+  
   .hamburger{
+    /* font-size: 5rem; */
+    margin-right: 3rem;
     color: white;
-    width: 40px;
+    /* width: 40rem; */
     display: block;
   }
+ .ham-btn{
+  width: 50px;
+ }
   .header{
     position: inherit;
     padding: 16px;
+  }
+  .mobile-navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mob-nav-li{
+    color: #000000;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 50px;
+    margin: 6px;
+    width: 80%;
+    border:solid 1px #03a9f4;
+  }
+  .mob-nav-li:hover{
+    background-color: skyblue;
+    color: white;
   }
   .home {
     margin-top: 0.5rem;
@@ -680,6 +703,7 @@ button:active {
   .portfolio-box-img{
     width: 240px;
   }
+ 
   .navbar {
     display: none;
     position: absolute;
