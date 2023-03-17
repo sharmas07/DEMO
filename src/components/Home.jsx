@@ -16,7 +16,7 @@ function Home() {
     const typed = new Typed(el.current, {
       strings: ["vikram^2000","Frontend Developer"],
       typeSpeed: 100,
-      backSpeed: 80,
+      backSpeed: 90,
       loop:true
     })
     return () => {
