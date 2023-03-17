@@ -14,8 +14,9 @@ function Home() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["vikram","Frontend Developer"],
-      typeSpeed: 130,
+      strings: ["vikram^2000","Frontend Developer"],
+      typeSpeed: 100,
+      backSpeed: 70,
       loop:true
     })
     return () => {
